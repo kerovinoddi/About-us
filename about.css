@@ -2,33 +2,51 @@ body{
 
 	background-attachment: fixed;
 	text-align: center;
-	font-weight: 200;
+	font-weight: bold;
 	font-size: medium;
-	position: fixed;
-	background-color: whitesmoke;
+	font-weight: 300;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: brightness(120%);
+	pointer-events: none;
+	background-repeat: no-repeat;
 	background-image: url("image/hugo-l-casanova-NlyjFONZRww-unsplash.jpg");
 }
-.container{
-	width: 300px;
-	height: 200px;
-	border: 1px solid black;
-	background-image: url(image/brett-jordan-N2BVTif1ElI-unsplash.jpg);
-	background-size: 20px 20px;
-	animation: mymove 20s infinite;
-  }
-  
-  @keyframes mymove {
-	75% {background-size: 200px 200px;}
-
-}
 h2{
-	text-align: center;
-
+text-align: center;
+font-size: medium;
 }
+
 h4{
 	text-align: center;
 }
 p{
 	text-align: center;
 }
+img{
+	max-width: 100%;
+	max-height: 100%;
+	display: block; 
+}
+.box{
+	width: 250px;        
+	border: 5px solid black;
+}    
+.box.large{
+	height: 300px;
+}
+.box.small{
+	height: 100px;
+}
+
+
+html { 
+	background: url(image/hugo-l-casanova-NlyjFONZRww-unsplash.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
 
