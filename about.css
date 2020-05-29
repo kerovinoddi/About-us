@@ -1,3 +1,7 @@
 body{
 	background-attachment: fixed;
+	font-size: medium;
+	position: fixed;
+	background-color: whitesmoke;
+	background-image: url(image/hugo-l-casanova-NlyjFONZRww-unsplash.jpg);
 }
