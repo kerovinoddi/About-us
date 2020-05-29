@@ -1,7 +1,34 @@
 body{
+
 	background-attachment: fixed;
+	text-align: center;
+	font-weight: 200;
 	font-size: medium;
 	position: fixed;
 	background-color: whitesmoke;
-	background-image: url(image/hugo-l-casanova-NlyjFONZRww-unsplash.jpg);
+	background-image: url("image/hugo-l-casanova-NlyjFONZRww-unsplash.jpg");
 }
+.container{
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	background-image: url(image/brett-jordan-N2BVTif1ElI-unsplash.jpg);
+	background-size: 20px 20px;
+	animation: mymove 20s infinite;
+  }
+  
+  @keyframes mymove {
+	75% {background-size: 200px 200px;}
+
+}
+h2{
+	text-align: center;
+
+}
+h4{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
