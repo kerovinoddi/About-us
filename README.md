@@ -1,10 +1,10 @@
-# PIZZA CLASSIC
+# CLOUDSHJAMBA-PROJECT.
 
-Welcome to Pizza classic.
+Welcome to coudshamba.
 
 ## Description
 
-This is the best site where you can order your pizza at a lower cost and all sizes are available to meet your financial level of our varied customers.
+Cloudshamba offers assistance and advise to farmers on how to better their output by equiping them with know how on how to handle their animals and even treating them.
 
 ## Setup/Installation Requirements
 
